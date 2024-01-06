@@ -101,9 +101,65 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 30px;
 }
 
 #my-plan .container .plan-part {
     display: flex;
-    gap: 205px;
+    gap: 190px;
+}
+
+#my-plan .container .plan-part h4 {
+    color: var(--Dark-01, #151414);
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#my-plan .container .plan-part .images {
+    text-align: center;
+}
+
+#my-plan .container .plan-part p {
+    color: var(--Dark-03, #737272);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 18px 0 16px;
+}
+
+/* watch style start */
+#watch-part .container .watch-img {
+    background: url("../images/watch.png");
+    padding: 59px 617px 59px 64px;
+    margin: 130px 0;
+}
+
+#watch-part .container .watch-img h2 {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+#watch-part .container .watch-img button {
+    padding: 20px 36px;
+    border-radius: 5px;
+    background: #FFF;
+    color: #F15B22;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: 0;
 }
